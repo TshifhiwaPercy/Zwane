@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Login page
+	</title>
+	<meta charset = "utf-8" name = "viewport" content = "width=device-width, initial-scale = 1.0">	
+	<link rel="stylesheet" href = "css/login_page.css">
+	<link rel="stylesheet" href = "css/login_page_Media_queries.css">
+
+	<link rel = "stylesheet" href = "materialize/css/materialize.min.css" >
+	<link rel="stylesheet" href= "css/google_fonts.css" >
+	<link rel = "stylesheet" href= "materialize/css/materialize.css" >
+	<script src = "materialize/js/materialize.js"></script>
+	<script src = "materialize/js/materialize.min.js"></script>
+
+	<!-- Initiliazation of side nav-->
+	<script type="text/javascript" >
+		 document.addEventListener('DOMContentLoaded', function(){
+	var elems = document.querySelectorAll('.sidenav');
+	var instances = M.Sidenav.init(elems, {});
+	  });
+	</script>
+	<!-- End of sidenav initilization -->
+</head>
+
+
+<body>
+	<div class = "main_cotainer">
+		<div class="navigation_Menu">
+			<ul id="slide-out" class="sidenav">
+				<li id="sidenav-close"><a href="#"  class="sidenav-close"><i class="medium material-icons">close</i></a></li>
+				<li class="home_item" ><a href="index.html" id="home_link"class="waves-effect waves-ripple waves-red" >Home</a></li>
+				<li><a class="waves-effect waves-ripple waves-red" href="contact-us.html">Contact us</a></li>
+				<li><a href="register.html" class="waves-effect waves-ripple waves-red">Register</a></li>
+			</ul>
+			<a href="#" data-target = "slide-out" class="sidenav-trigger" id="menu_icon"><i class="medium material-icons">menu</i></a>
+
+		</div>
+
+		<div class = "top_half_container">
+		<a  href = "#" class="icon_container waves-effect waves-teal waves-ripple">
+			<img src="pictures/house-512.png" alt = "login_icon" class = "login_image materialboxed"/>
+		</a>
+
+		</div>
+		<div class = "login_menu_container">
+			<p class = "p_email">
+		<h3 id = "login-header"> LOGIN</h3>	
+		<hr id = "login_line_break"/>
+		<label id = "lblEmail">EMAIL</label>
+		<input id="email" type="email" class="validate">
+		<label id = "lblPassword">PASSWORD</label>
+		<input id="password" type="password" class="validate"></p>
+		<a id = "forgotPass" href="#">Forgot Password?</a><br/>
+		<label >
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span id="spnRemember">Remember me</span>
+      </label><br/>
+      <label id="btnLogin" class="btn" > LOGIN</label><br/>
+		
+		
+		</div>
+
+		<div class = "bottom_half_container">
+		</div>
+		<div class ="footer">
+			<p id="footer">Copy right</p>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
