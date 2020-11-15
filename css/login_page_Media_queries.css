@@ -334,3 +334,36 @@
 		margin-top:12%;
 	}
 }
+@media(min-height:700px) and (min-width:1280px)
+{
+	.login_menu_container
+	{
+		height:50%;
+		top:25%;
+
+	}
+	.top_half_container
+	{
+		height:35%;
+		top:20%;
+	}
+	.icon_container
+	{
+		top:10%;
+		width:25%;
+
+	}
+}
+@media(min-width:1440px)
+{
+	.login_menu_container
+	{
+		top:20%;
+	}
+	.icon_container
+	{
+		height:35%;
+		left:-2%;
+	}
+}
+

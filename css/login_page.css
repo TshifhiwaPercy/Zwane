@@ -3,12 +3,16 @@
 	font-family:shakerato;
 	src:url("fonts/Shakerato-PERSONAL.otf");
 }
-
+@font-face
+{
+	font-family:bandarbold;
+	src:url("fonts/BandarBold.ttf");
+}
 body
 {
 	margin:0;
 	overflow:auto;
-	font-family:arial;
+	font-family:arial
 	background-color:green;
 
 }
@@ -49,6 +53,7 @@ img
 	width:100%;
 	background-color:rgb(12,98,184);
 	overflow:auto;
+
 
 }
 .bottom_half_container
