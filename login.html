@@ -28,6 +28,8 @@
 
 <body>
 	<div class = "main_cotainer">
+
+		<!-- Start of cellular login contrls -->
 		<div class="navigation_Menu">
 			<ul id="slide-out" class="sidenav">
 				<li id="sidenav-close"><a href="#"  class="sidenav-close"><i class="medium material-icons">close</i></a></li>
@@ -40,7 +42,7 @@
 		</div>
 
 		<div class = "top_half_container">
-		<a  href = "#" class="icon_container waves-effect waves-teal waves-ripple cyan pulse">
+		<a href = "#" class="icon_container waves-effect waves-teal waves-ripple cyan pulse">
 			<img src="pictures/house-512.png" alt = "login_icon" class = "login_image "/>
 		</a>
 
@@ -65,9 +67,48 @@
 
 		<div class = "bottom_half_container">
 		</div>
+		<!-- End of cellular login controls -->
+		<!-- Desktop login controls -->
+		<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="index.html" class="waves-effect waves-ripple">Home</a></li>
+        <li><a href="registration_page.html"class="waves-effect waves-ripple">Register</a></li>
+        <li><a href="about.html"class="waves-effect waves-ripple">About us</a></li>
+        <li><a href="contact-us.html"class="waves-effect waves-ripple">Contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="login_body">
+  	<div class="login_controls_container">
+  		<i class= "account_icon medium material-icons ">account_circle</i>
+  		<div class="input-field col s6">
+          <i class="material-icons prefix">email</i>
+          <input id="icon_prefix" type="email" class="validate">
+          <label for="icon_prefix">Email</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">vpn_key
+</i>
+          <input id="icon_password" type="password" class="validate">
+          <label for="icon_password">Password</label>
+        </div>
+        <label><a href="forgot_password.html" id="forgot_passwordD"> Forgot password</a></label><br/>
+        <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span id = "rememberMeD">Remember me</span><br/>
+        <label id="loginBtnD" class = "btn waves-effect waves-ripple">Login</label><br/>
+        
+
+
+  	</div>
+  </div>
+
 		<div class ="footer">
 			<p id="footer">Copy right</p>
 		</div>
+
 
 	</div>
 

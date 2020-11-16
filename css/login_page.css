@@ -11,7 +11,7 @@
 body
 {
 	margin:0;
-	overflow:auto;
+	overflow:hidden;
 	font-family:arial
 	background-color:green;
 
@@ -145,9 +145,44 @@ img
 	margin-left:35%;
 }
 
+/*Desktop controls*/
+.nav-wrapper
+{
+	background-color:grey;
+}
+.main_container
+{
+	background-color:blue;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.login_controls_container
+{
+	margin-left:50%;
+	position:absolute;
+	
+	margin-top:10%;
+	border-left:2px solid black;
+	height:60%;
+	width:30%;
+}
+.account_icon
+{
+	margin-left:45%;
+}
+.icon_prefix
+{
+	width:20%;
+}
 
-
-
-
-
-
+#rememberMeD
+{
+	top:5%;
+	left:35%;
+}
+#loginBtnD
+{
+	top:7%;
+	left:40%;
+}
