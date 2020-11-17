@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<meta charset = "utf-8" name="viewport" content = "width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "materialize/css/materialize.min.css" />
+	<link rel="stylesheet" href= "css/google_fonts.css" >
+	<link rel = "stylesheet" href= "materialize/css/materialize.css" >
+	<link rel="stylesheet" href="css/registration_page_desktop.css" />
+	<link rel="stylesheet" href="css/registration_page_Media_queriess.css" />
+	<script src = "materialize/js/materialize.js"></script>
+	<script src = "materialize/js/materialize.min.js"></script>
+		<!-- Initiliazation of side nav-->
+	<script type="text/javascript" >
+		 document.addEventListener('DOMContentLoaded', function(){
+	var elems = document.querySelectorAll('.sidenav');
+	var instances = M.Sidenav.init(elems, {});
+	  });
+	</script>
+	<!-- End of sidenav initilization -->
+
+</head>
+<body>
+	<div class="cell_phone_form">
+		<div class="navigation_Menu">
+			<ul id="slide-out" class="sidenav">
+				<li id="sidenav-close"><a href="#"  class="sidenav-close"><i class="medium material-icons">close</i></a></li>
+				<li class="home_item" ><a href="index.html" id="home_link"class="waves-effect waves-ripple waves-red" >Home</a></li>
+				<li><a class="waves-effect waves-ripple waves-red" href="contact-us.html">Contact us</a></li>
+				<li><a href="login.html" class="waves-effect waves-ripple waves-red">login</a></li>
+			</ul>
+			<a href="#" data-target = "slide-out" class="sidenav-trigger" id="menu_icon"><i class="medium material-icons">menu</i></a>
+		</div>
+		<div class="header">
+			<h3 id="logo_container">LOGO</h3>
+		</div>
+		<!--Desktop navbar -->
+	<nav class="wrapper">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="index.html" class="waves-effect waves-ripple">Home</a></li>
+        <li><a href="registration_page.html"class="waves-effect waves-ripple">Register</a></li>
+        <li><a href="about.html"class="waves-effect waves-ripple">About us</a></li>
+        <li><a href="contact-us.html"class="waves-effect waves-ripple">Contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+	<div class="main_container">
+		<h3 id="signup_header">CREATE ACCOUNT</h3>
+		<div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix0" type="email" class="validate">
+          <label for="icon_prefix0">Full Name</label>
+        </div>
+
+			<div class="input-field col s6">
+          <i class="material-icons prefix">email</i>
+          <input id="icon_prefix1" type="email" class="validate">
+          <label for="icon_prefix1">Email</label>
+        </div>
+
+        <div class="input-field col s6">
+          <input id="icon_prefix2" type="email" class="validate" >
+          <label for="icon_prefix2">confirm email</label>
+        </div>
+
+		<div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_prefix3" type="tel" class="validate">
+          <label for="icon_prefix3">cell-phone number</label>
+        </div>
+
+		
+		<div class="input-field col s6">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="icon_prefix4" type="password" class="validate">
+          <label for="icon_prefix4">password</label>
+        </div>
+		
+		<div class="input-field col s6">
+          <input id="icon_prefix5" type="password" class="validate">
+          <label for="icon_prefix5">confirm password</label>
+        </div>
+
+		<label id="btnSignUp" class="btn waves-effect waves-ripple">SIGN UP</label><br/>
+		<p id="hav_acc"><label id="login_text">Already have an account?<a href="login.html">Login</a></label></p>
+	</div>
+</div>
+
+	<div class ="footer">
+			<p id="footer">Copy right</p>
+		</div>
+
+</body>
+
+</html>

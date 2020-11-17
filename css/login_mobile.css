@@ -1,0 +1,197 @@
+@font-face
+{
+	font-family:shakerato;
+	src:url("fonts/Shakerato-PERSONAL.otf");
+}
+@font-face
+{
+	font-family:bandarbold;
+	src:url("fonts/BandarBold.ttf");
+}
+body
+{
+	margin:0;
+	overflow:hidden;
+	font-family:arial
+	background-color:green;
+
+}
+img
+{
+	width:100%;
+	height:100%;
+
+}
+
+
+.icon_container
+{
+	background-color:white;
+	width:20%;
+	height:20%;
+	border-radius:50%;
+	padding:5%;
+	margin-left:40%;
+	margin-right:auto;
+	margin-top:20%;
+}
+.main_container
+{
+	position:absolute;
+	bottom:0;
+	top:0;
+	overflow:auto;
+	width:100%;
+
+
+
+}
+.top_half_container
+{
+	position:absolute;
+	height:50%;
+	width:100%;
+	background-color:rgb(12,98,184);
+	overflow:auto;
+
+
+}
+.bottom_half_container
+{
+	position:absolute;
+	height:50%;
+	width:100%;
+	float:bottom;
+	bottom:0;
+
+	background-color:rgb(207,230,252);
+	overflow:auto;
+}
+.login_menu_container
+{
+	position:absolute;
+	z-index:2;
+	width:70%;
+	height:40%;
+	background-color:rgb(207,230,252);
+	border-radius:2%;
+	overflow:auto;
+	
+
+}
+.footer
+{
+	position:absolute;
+	bottom:0;
+	height:6%;
+	background-color:black;
+	width:100%;
+}
+
+/*Defaults*/
+#sidenav-close
+{
+	float:right;
+	clear:left;
+}
+.home_item
+{
+	padding-top:17%;
+}
+#menu_icon
+{
+	position:absolute;
+	color:rgb(13,57,55);
+	z-index:4;
+}
+#footer
+{
+	color:white;
+	text-align:center;
+}
+#login-header
+{
+	padding-left:35%;
+	padding-top:1%;
+	font-size:140%;
+
+	
+}
+#login_line_break
+{
+	margin-bottom:6%;
+	background-color:rgb(106,106,106);
+	width:90%;
+	height:1%;
+}
+
+
+#txtEmail:focus, #txtPassword:focus
+{
+	box-shadow:10px 10px 10px rgb(100,100,100);
+	border-left:2px solid silver;
+	border-right:1%;
+	outline:0;
+
+}
+#spnRemember
+{
+	margin-top:2%;
+	margin-left:20%;
+}
+#btnLogin
+{
+	margin-top:3%;
+	margin-left:35%;
+}
+
+/*Desktop controls*/
+.nav-wrapper
+{
+	background-color:grey;
+}
+.main_container
+{
+	background-color:blue;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+.login_controls_container
+{
+	margin-left:50%;
+	position:absolute;
+	
+	margin-top:10%;
+	border-left:2px solid black;
+	height:60%;
+	width:30%;
+}
+.account_icon
+{
+	margin-left:45%;
+}
+.icon_prefix
+{
+	width:20%;
+}
+
+#rememberMeD
+{
+	top:5%;
+	left:35%;
+}
+#loginBtnD
+{
+	top:7%;
+	left:40%;
+}
+#error_msg
+{
+	color:red;
+}
+#alert_icon
+{
+	font-size:120%;
+
+}

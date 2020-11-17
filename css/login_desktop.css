@@ -1,0 +1,22 @@
+/*Hide mobile controls*/
+.navigation_Menu
+{
+	visibility:hidden;
+}
+.top_half_container
+{
+	visibility:hidden;
+}
+.login_menu_container
+{
+	visibility:hidden;
+}
+.bottom_half_container
+{
+	visibility:hidden;
+}
+.icon_container
+{
+	visibility:hidden;
+}
+

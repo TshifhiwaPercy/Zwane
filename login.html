@@ -6,7 +6,8 @@
 		Login page
 	</title>
 	<meta charset = "utf-8" name = "viewport" content = "width=device-width, initial-scale = 1.0">	
-	<link rel="stylesheet" href = "css/login_page.css">
+	<link rel="stylesheet" href = "css/login_desktop.css">
+	<link rel="stylesheet" href = "css/login_mobile.css">
 	<link rel="stylesheet" href = "css/login_page_Media_queries.css">
 
 	<link rel = "stylesheet" href = "materialize/css/materialize.min.css" >
@@ -94,6 +95,7 @@
           <input id="icon_password" type="password" class="validate">
           <label for="icon_password">Password</label>
         </div>
+        <label id="error_msg"><i id ="alert_icon" class="material-icons small">report_problem</i>Login failed bro</label><br/>
         <label><a href="forgot_password.html" id="forgot_passwordD"> Forgot password</a></label><br/>
         <label>
         <input type="checkbox" class="filled-in" checked="checked" />
@@ -108,8 +110,6 @@
 		<div class ="footer">
 			<p id="footer">Copy right</p>
 		</div>
-
-
 	</div>
 
 
